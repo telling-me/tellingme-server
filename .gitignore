@@ -38,3 +38,4 @@ out/
 
 ### mysql ###
 src/main/resources/application-mysql.properties
+src/test/resources/application-mysql.properties
