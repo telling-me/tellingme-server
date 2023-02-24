@@ -53,5 +53,5 @@ jobs:
           --application-name tellingme-codedeploy-app
           --deployment-group-name tellingme-codedeploy-deployment-group
           --file-exists-behavior OVERWRITE
-          --s3-location bucket=omnm-deploy,bundleType=zip,key=$GITHUB_SHA.zip
+          --s3-location bucket=tellingme-github-actions-s3-bucket,bundleType=zip,key=$GITHUB_SHA.zip
           --region ap-northeast-2
